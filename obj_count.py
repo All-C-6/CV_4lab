@@ -40,7 +40,7 @@ mask_arr = np.array([[[1,1,1,1],
                       [1,1,1,1,1,1]]], dtype = object)
 
 #подготовка к обработке данных
-image = np.load('ps1.npy')
+image = np.load('ps.npy')
 objects = [0, 0, 0, 0, 0, 0]
 
 #применение созданных масок
